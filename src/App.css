@@ -1,8 +1,12 @@
 .App {
   text-align: center;
   width: 550px;
-  border: 8px solid black;
+  min-height: 400px;
+  border: 6px solid black;
   margin: auto;
   margin-top: 10px;
   border-radius: 15px;
+}
+.spisok {
+  margin-top: 100px;
 }

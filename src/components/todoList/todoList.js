@@ -7,7 +7,7 @@ function TodoList({ todos, delTodo, tog }) {
       {todos.map((todo) => (
         <Todo todo={todo} key={todo.id} udal={delTodo} toggle={tog} />
       ))}
-      {todos.length === 0 && <h3>список задач пуст</h3>}
+      {todos.length === 0 && <h3 className="spisok">Cписок задач пуст</h3>}
     </div>
   );
 }

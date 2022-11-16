@@ -49,7 +49,9 @@ function App() {
         completedChethik={!completedTodosCount}
       />
       <TodoList delTodo={delTodoH} todos={todos} tog={toggleTodoH} />
-      <div>Завершено задач:{completedTodosCount}</div>
+      {completedTodosCount > 0 && (
+        <h2>Завершено задач:{completedTodosCount}</h2>
+      )}
     </div>
   );
 }
